@@ -16,6 +16,7 @@ def menu():
     return op
 
 if __name__=="__main__":
+    print("probando")
     ge = gestorEdi()
     ge.edificioCSV()
     opcion = menu()
